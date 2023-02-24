@@ -1,0 +1,36 @@
+.container {
+    background: lightblue;
+    box-align: auto;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Orbitron;
+}
+.button {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: rgb(11, 0, 211);
+    border-radius: 5px;
+    background: rgba(42, 107, 125, 0);
+    font-family: Orbitron;
+}
+.box{
+    color: black;
+    margin-top: 20px;
+    
+}
+div{
+    margin: 20px;
+    font-family: Orbitron;
+   
+    
+}

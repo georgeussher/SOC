@@ -1,0 +1,5 @@
+let timeBoxEl = document.getElementById("time-box");
+
+function timeCall(){
+  timeBoxEl.innerHTML = Date()
+}
