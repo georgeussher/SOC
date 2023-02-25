@@ -26,9 +26,12 @@ h1 {
 .box{
     color: black;
     margin-top: 20px;
-    
+    padding: -30px;    
 }
 div{
     margin: 20px;
     font-family: Orbitron; 
+}
+.stopclock {
+    margin-top: 5px
 }
