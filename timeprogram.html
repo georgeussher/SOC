@@ -8,13 +8,17 @@
     <body class="container">
         <h1>Accurate time is essential.</h1>
         <button type="button" onclick="timeCall()" class="button">Click to update time</button>
-        <div class="time">The current time is:<p id="time-box" class="box">TIME</p></div>
+        <div id="timeText" class="time">The current time is:<p id="time-box" class="box">TIME</p></div>
         <script type="text/javascript" src="script.js"></script>
         <div>
             <div class="stopclock">Stopclock:</div>
+            <div class="elapsedTime" id="elapsed-time"> 00 : 00 : 00 : 00</div>
             <div class="timer" id="timer"></div>
-            <button id="start"></button>
-            <button id="stop"></button>
+            <div class="timerButtons">
+                <button class="button" id="start" onclick="startTimer()">START</button>
+                <button class="button" id="stop">STOP</button>
+                <button class="button" id="reset">RESET</button>
+            </div>
         </div>
     </body> 
 </html>
